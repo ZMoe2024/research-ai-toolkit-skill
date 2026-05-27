@@ -24,10 +24,21 @@ git clone https://github.com/ZMoe2024/research-ai-toolkit-skill.git
 Copy-Item -Recurse -Force .\research-ai-toolkit-skill C:\Users\Administrator\.codex\skills\research-ai-toolkit
 ```
 
-安装后重启 Codex，输入下面这种话即可触发：
+## 安装后怎么问
+
+安装后重启 Codex，最短用法是：
 
 ```text
-/科研 我想做 Abaqus 仿真，有什么 Skill 或 MCP？
+/keyan + 你的科研任务
+```
+
+比如：
+
+```text
+/keyan 我想做 Abaqus 仿真
+/keyan 论文润色和图表返修用什么 Skill？
+/keyan 我要做问卷数据分析，找合适的 MCP
+/keyan 帮我从查文献到写综述配一套工具
 ```
 
 也可以不用斜杠，直接说：
