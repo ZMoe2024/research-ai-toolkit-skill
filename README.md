@@ -47,6 +47,20 @@ Copy-Item -Recurse -Force .\research-ai-toolkit-skill C:\Users\Administrator\.co
 科研司南：研究生写 Nature 论文润色和返修信，用什么工具？
 ```
 
+## 进群 / 投稿
+
+如果你发现了好用的 Skill、MCP 或科研小工具，或者想补充某个专业的真实用法，可以扫码进微信群。
+
+群里主要做三件事：
+
+- 推荐新工具。
+- 问具体科研任务该怎么配工具。
+- 提交教程、截图、踩坑和案例。
+
+> 二维码如果过期，以网站首页的最新入口为准。
+
+<img src="assets/community-qr.jpg" alt="科研交流微信群二维码" width="260">
+
 ## 它会怎么回答
 
 它不会替你直接写论文或跑实验，而是先做“工具路由”：
@@ -120,6 +134,8 @@ research-ai-toolkit-skill/
 ├── SKILL.md
 ├── agents/
 │   └── openai.yaml
+├── assets/
+│   └── community-qr.jpg
 ├── prompts/
 ├── references/
 │   ├── priority-shortlist.md
