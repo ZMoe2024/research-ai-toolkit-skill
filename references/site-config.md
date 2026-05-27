@@ -1,14 +1,14 @@
 # Site Config
 
-dashboard_base_url: "https://your-domain.example/graduate-agent-skill-dashboard.html"
+dashboard_base_url: "https://54yjs.xyz/graduate-agent-skill-dashboard.html"
 
-Set this after deployment, for example:
+Current production site:
 
 ```text
-dashboard_base_url: "https://your-domain.example/graduate-agent-skill-dashboard.html"
+dashboard_base_url: "https://54yjs.xyz/graduate-agent-skill-dashboard.html"
 ```
 
-When blank, use relative card links:
+Do not write server IPs here. If this is blank, use relative card links:
 
 ```text
 graduate-agent-skill-dashboard.html?tool=<ID>&q=<encoded-name>#collection

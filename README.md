@@ -2,6 +2,16 @@
 
 把“科研 AI 工具库”变成一个 Codex 可调用的推荐器。你描述科研任务，它从目录里推荐合适的 Skill、MCP 和工具，并说明先用哪个、怎么输入、会产出什么、哪里必须人工检查。
 
+## 网站入口
+
+科研 AI 工具库：
+
+```text
+https://54yjs.xyz/
+```
+
+网站适合直接浏览和搜索工具；这个 GitHub 仓库适合安装 Codex Skill，让 Codex 根据你的科研任务自动推荐工具。
+
 适合这些问题：
 
 - 我想做 Abaqus 仿真，有没有 Skill 或 MCP？
@@ -96,13 +106,13 @@ references/priority-shortlist.md
 references/site-config.md
 ```
 
-默认不写死服务器 IP。部署后把它改成你的正式域名，例如：
+当前默认指向正式网站：
 
 ```text
-https://your-domain.example/graduate-agent-skill-dashboard.html
+https://54yjs.xyz/graduate-agent-skill-dashboard.html
 ```
 
-以后换域名，只需要改 `references/site-config.md` 里的 `dashboard_base_url`。
+以后换域名，只需要改 `references/site-config.md` 里的 `dashboard_base_url`。不要写服务器 IP。
 
 ## 更新目录数据
 
